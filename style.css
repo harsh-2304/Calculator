@@ -18,33 +18,33 @@ padding: 10px;
 }
 .calculator {
 background-color: var(--calc-bg);
-padding: clamp(12px, 4vw, 20px);
+padding: clamp(14px, 5vw, 24px); 
 border-radius: 16px;
 box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
-max-width: 400px;
+max-width: 420px;
 width: 100%;
 }
 #display {
 width: 100%;
-font-size: clamp(20px, 6vw, 28px); 
-padding: clamp(10px, 3vw, 8px);
-margin-bottom: clamp(12px, 3vw, 20px);
+font-size: clamp(26px, 7.5vw, 36px); 
+padding: clamp(14px, 4vw, 18px);
+margin-bottom: clamp(14px, 4vw, 22px);
 text-align: right;
 border: none;
-border-radius: 18px;
+border-radius: 10px;
 background-color: var(--btn-bg);
 color: var(--text-color);
 }
 .buttons {
 display: grid;
 grid-template-columns: repeat(4, 1fr);
-gap: clamp(8px, 2.5vw, 12px); 
+gap: clamp(10px, 3vw, 14px);
 }
 button {
-padding: clamp(12px, 3.5vw, 16px);
-font-size: clamp(16px, 5vw, 20px);
+padding: clamp(16px, 5vw, 22px); 
+font-size: clamp(20px, 6vw, 28px); 
 border: none;
-border-radius: 12px;
+border-radius: 14px;
 background-color: var(--btn-bg);
 color: var(--text-color);
 cursor: pointer;
@@ -60,9 +60,9 @@ color: #fff;
 }
 @media screen and (max-width: 500px) {
 .calculator {
-border-radius: 12px;
+border-radius: 14px;
 }
 button {
-border-radius: 10px;
+border-radius: 12px;
 }
 }
